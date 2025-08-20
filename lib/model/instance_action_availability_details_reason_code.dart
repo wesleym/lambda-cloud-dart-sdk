@@ -12,15 +12,15 @@ part of openapi.api;
 
 class InstanceActionAvailabilityDetailsReasonCode {
   /// Returns a new [InstanceActionAvailabilityDetailsReasonCode] instance.
-  InstanceActionAvailabilityDetailsReasonCode({
-  });
+  InstanceActionAvailabilityDetailsReasonCode();
 
   @override
-  bool operator ==(Object other) => identical(this, other) || other is InstanceActionAvailabilityDetailsReasonCode &&
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is InstanceActionAvailabilityDetailsReasonCode;
 
   @override
-  int get hashCode =>
-    // ignore: unnecessary_parenthesis
+  int get hashCode => 0;
 
   @override
   String toString() => 'InstanceActionAvailabilityDetailsReasonCode[]';
@@ -42,19 +42,23 @@ class InstanceActionAvailabilityDetailsReasonCode {
       // Note 2: this code is stripped in release mode!
       assert(() {
         requiredKeys.forEach((key) {
-          assert(json.containsKey(key), 'Required key "InstanceActionAvailabilityDetailsReasonCode[$key]" is missing from JSON.');
-          assert(json[key] != null, 'Required key "InstanceActionAvailabilityDetailsReasonCode[$key]" has a null value in JSON.');
+          assert(json.containsKey(key),
+              'Required key "InstanceActionAvailabilityDetailsReasonCode[$key]" is missing from JSON.');
+          assert(json[key] != null,
+              'Required key "InstanceActionAvailabilityDetailsReasonCode[$key]" has a null value in JSON.');
         });
         return true;
       }());
 
-      return InstanceActionAvailabilityDetailsReasonCode(
-      );
+      return InstanceActionAvailabilityDetailsReasonCode();
     }
     return null;
   }
 
-  static List<InstanceActionAvailabilityDetailsReasonCode> listFromJson(dynamic json, {bool growable = false,}) {
+  static List<InstanceActionAvailabilityDetailsReasonCode> listFromJson(
+    dynamic json, {
+    bool growable = false,
+  }) {
     final result = <InstanceActionAvailabilityDetailsReasonCode>[];
     if (json is List && json.isNotEmpty) {
       for (final row in json) {
@@ -67,12 +71,14 @@ class InstanceActionAvailabilityDetailsReasonCode {
     return result.toList(growable: growable);
   }
 
-  static Map<String, InstanceActionAvailabilityDetailsReasonCode> mapFromJson(dynamic json) {
+  static Map<String, InstanceActionAvailabilityDetailsReasonCode> mapFromJson(
+      dynamic json) {
     final map = <String, InstanceActionAvailabilityDetailsReasonCode>{};
     if (json is Map && json.isNotEmpty) {
       json = json.cast<String, dynamic>(); // ignore: parameter_assignments
       for (final entry in json.entries) {
-        final value = InstanceActionAvailabilityDetailsReasonCode.fromJson(entry.value);
+        final value =
+            InstanceActionAvailabilityDetailsReasonCode.fromJson(entry.value);
         if (value != null) {
           map[entry.key] = value;
         }
@@ -82,20 +88,26 @@ class InstanceActionAvailabilityDetailsReasonCode {
   }
 
   // maps a json object with a list of InstanceActionAvailabilityDetailsReasonCode-objects as value to a dart map
-  static Map<String, List<InstanceActionAvailabilityDetailsReasonCode>> mapListFromJson(dynamic json, {bool growable = false,}) {
+  static Map<String, List<InstanceActionAvailabilityDetailsReasonCode>>
+      mapListFromJson(
+    dynamic json, {
+    bool growable = false,
+  }) {
     final map = <String, List<InstanceActionAvailabilityDetailsReasonCode>>{};
     if (json is Map && json.isNotEmpty) {
       // ignore: parameter_assignments
       json = json.cast<String, dynamic>();
       for (final entry in json.entries) {
-        map[entry.key] = InstanceActionAvailabilityDetailsReasonCode.listFromJson(entry.value, growable: growable,);
+        map[entry.key] =
+            InstanceActionAvailabilityDetailsReasonCode.listFromJson(
+          entry.value,
+          growable: growable,
+        );
       }
     }
     return map;
   }
 
   /// The list of required keys that must be present in a JSON.
-  static const requiredKeys = <String>{
-  };
+  static const requiredKeys = <String>{};
 }
-

@@ -1,17 +1,15 @@
-#
-# AUTO-GENERATED FILE, DO NOT MODIFY!
-#
-
-name: 'openapi'
-version: '1.0.0'
-description: 'OpenAPI API client'
-homepage: 'homepage'
+name: lambda_cloud_api
+version: 1.0.0
+description: Generated API client for Lambda Cloud
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: ^3.9.0
 dependencies:
-  collection: '>=1.17.0 <2.0.0'
-  http: '>=0.13.0 <2.0.0'
-  intl: any
-  meta: '>=1.1.8 <2.0.0'
+  collection: ^1.19.1
+  http: ^1.5.0
+  intl: ^0.20.2
+  meta: ^1.17.0
+  openapi_generator_annotations: ^6.1.0
 dev_dependencies:
-  test: '>=1.21.6 <1.22.0'
+  build_runner: ^2.4.13
+  openapi_generator: ^6.1.0
+  test: ^1.26.3
