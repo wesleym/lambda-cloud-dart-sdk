@@ -6,7 +6,6 @@
 
 pubspec.yaml
 test/*
-doc/*
 
 # Requires hand-tweaking
 lib/model/instance_action_availability_details_reason_code.dart

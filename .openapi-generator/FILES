@@ -175,7 +175,6 @@ lib/model/image_specification_id.dart
 lib/model/instance.dart
 lib/model/instance_action_availability.dart
 lib/model/instance_action_availability_details.dart
-lib/model/instance_action_availability_details_reason_code.dart
 lib/model/instance_action_unavailable_code.dart
 lib/model/instance_launch_request.dart
 lib/model/instance_launch_request_image.dart
@@ -214,4 +213,3 @@ lib/model/tag_entry.dart
 lib/model/terminate_instance200_response.dart
 lib/model/user.dart
 lib/model/user_status.dart
-pubspec.yaml
