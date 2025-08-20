@@ -1,6 +1,6 @@
-name: lambda_cloud_api
+name: lambda_cloud_dart_sdk
 version: 1.0.0
-description: Generated API client for Lambda Cloud
+description: Generated API client for the Lambda Cloud API
 environment:
   sdk: ^3.9.0
 dependencies:

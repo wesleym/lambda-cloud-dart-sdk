@@ -1,4 +1,4 @@
-// Openapi Generator last run: : 2025-08-20T12:30:57.432131
+// Openapi Generator last run: : 2025-08-20T12:41:26.555764
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
