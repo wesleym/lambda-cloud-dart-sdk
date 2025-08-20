@@ -6,9 +6,9 @@ library;
 
 import 'package:openapi_generator_annotations/openapi_generator_annotations.dart';
 
-export 'src/lambda_cloud_api_base.dart';
-
 // TODO: Export any libraries intended for clients of this package.
+
+export 'api.dart';
 
 @Openapi(
   inputSpec: RemoteSpec(path: 'https://cloud.lambda.ai/api/v1/openapi.json'),
