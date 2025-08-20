@@ -9,6 +9,7 @@ test/*
 
 # Requires hand-tweaking
 lib/model/instance_action_availability_details_reason_code.dart
+lib/model/instance_launch_request_image.dart
 
 # As an example, the C# client generator defines ApiClient.cs.
 # You can make changes and tell OpenAPI Generator to ignore just this file by uncommenting the following line:
